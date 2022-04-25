@@ -6,7 +6,7 @@ resource "azurerm_network_security_group" "tfjboxnsg" {
 
   security_rule {
     name                       = "SSH"
-    priority                   = 1001
+    priority                   = 1005
     direction                  = "Inbound"
     access                     = "Allow"
     protocol                   = "Tcp"
